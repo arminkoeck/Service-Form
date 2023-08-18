@@ -1,0 +1,68 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.headingContainer {
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+
+
+.window {
+    display: flex;
+    height: 100vh;
+}
+
+.leftContainer {
+    display: flex;
+    flex-basis: 40%;
+    padding-top: 200px;
+    background-image: url("Lake-image.png")
+}
+
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+    padding-top: 100px;
+    background-color: #222222;
+}
+
+.transparentBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    flex-grow: 1;
+    background-color: #00000070;
+}
+
+.Logo {
+    height: 350px;
+    width: 350px;
+}
+
+.formContainer > h2 {
+    color: white;
+}
+
+.formContainer {
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
