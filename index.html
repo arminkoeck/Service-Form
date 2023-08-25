@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Service Form</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="window">
@@ -57,6 +58,7 @@
                             <label for="password">PASSWORD</label>
                             <input type="password" id="password" name="password" placeholder="This should be long and secret."required>
                             <span></span>
+                            <div id="error-message"></div>
                         </div>
                         <div>
                             <label for="password-confirmation">CONFIRM PASSWORD</label>
@@ -66,8 +68,10 @@
                     </div>
 
                     <div class="row-4">
-                        <button type="submit">Create Account</button>
-                    </div>  
+                        <div id="check-password">
+                            <button type="submit" id="create-account" onclick="return getConfirmation()">Create Account</button>
+                        </div>
+                    </div> 
 
                 </form>
             </div>
